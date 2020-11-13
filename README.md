@@ -1,24 +1,33 @@
 # desktop-electron
 
-## Project setup
+## 安装依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+###  纯vue项目启动
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+###  纯vue项打包
 ```
 npm run build
 ```
-
-### Lints and fixes files
+### eslint修复文件
 ```
 npm run lint
 ```
+## 桌面应用 
+### 编译并启动APP
+```
+npm run electron:serve
+```
+### 打包app
+```
+npm run electron:build
+```
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
